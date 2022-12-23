@@ -1,7 +1,10 @@
 # Redaction example using Tesseract
 
 ## To build
-> docker build -t redact -f Containerfile .
+
+```shell
+docker build -t redact -f Containerfile .
+```
 
 ## To run
 
