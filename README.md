@@ -14,7 +14,7 @@ docker run --rm -d -v $(pwd):/data redact -i input.tiff -o output.tiff
 
 The redacted image will appear in the mounted folder with the input image.
 
-The script can also be run indepentantly, required packages can be installed via 
+The script can also be run indepentantly, with tesseract-ocr installed, required python packages can be installed via 
 
 ```shell
 pip3 install -r requirements.txt
